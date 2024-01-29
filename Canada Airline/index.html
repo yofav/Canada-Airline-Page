@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Air Canada | Book Your Adventure Now!</title>
+    <link rel="icon" type="image/x-icon" href="./logo.png">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/6a21ae2aa4.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        <div class="nav-header">
+          <img src="./logo.png" class="logo" alt="logo" />
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        
+        <!--7 buttons made-->
+        <ul class="links">
+          <li class="like">
+            <button id="like">Like?<br><i class="fa-regular fa-thumbs-up"></i></button>
+          </li>
+          <li class="dislike">
+            <button id="dislike">Dislike? <br><i class="fa-regular fa-thumbs-down"></i></button>
+          </li>
+          <li class="reset">
+            <button id="reset">Reset All the likes <br><i class="fa-solid fa-arrow-rotate-left"></i></button>
+          </li>
+          <li class="color-variations">
+            <button id="color">Color Schemes <br><i class="fa-solid fa-droplet"></i></button>
+          </li>
+          <li class="traditional-design">
+            <button id="traditional">Original Design <br><i class="fa-solid fa-plane-departure"></i></button>
+          </li>
+          <li class="prev-btn">
+            <button id="review-prev">Previous Statement<br><i class="fa-solid fa-angle-left"></i></button>
+          </li>
+          <li class="next-btn">
+            <button id="review-next">Next Statement <br><i class="fa-solid fa-angle-right"></i></button>
+          </li>
+          <button id="animation">Want a Flight?</button>
+          <div class="boarding-pass">
+            <span id="closeButton" class="close-button"><i class="fa-solid fa-xmark"></i></span>
+            <div class="boarding-pass-content">
+             
+             
+              <h2 id="airlineName">Air Canada</h2>
+              <p id="flightNumber">Flight: AC234</p>
+              <p id="departure">departure: San Francisco</p>
+              <p id="destination">Destination: Milwaukee</p>
+              <p id="gate">Gate: 9K</p>
+              <p id="message">Contact us on aircanadafreeflight@yahoo.ca</p>
+           
+           
+            </div>
+          </div>
+
+        </ul>        
+      </div>
+    </nav>
+    <div class="counter">
+      <i class="fa-solid fa-magnifying-glass"></i><h1>0</h1>
+    </div>
+    <main>
+      <section class="container">
+          <div class="title">
+              <h2 class="text" id="text">What some of our employees think of us</h2>
+              <div class="underline"></div>
+          </div>
+
+          <article class="review">
+              <div class="img-container">
+                  <img src="person1.jpg" id="person-img" alt="" />
+              </div>
+              <h4 id="author">Quin Cook</h4>             
+              <p id="job">Cook</p>  
+              <p id="info">
+                Living the Dream!
+              </p>
+              <div class="button-container">
+                </div>
+                <!-- Buttons used from previous review page -->
+                <button class="random-btn">Surprise me</button>
+                <button class="slideshow">Slideshow</button>
+                <button class="theme-toggle">Dark Mode</button>
+                
+          </article>
+      </section>
+      <p class="alert">Contact us at aircanadaflights@yahoo.ca, for inquires on flights.</p>
+  </main>
+    <script src="script.js"></script>
+  </body>
+</html>
